@@ -110,6 +110,7 @@ on the children, the rest are properties you have used in past challenges
   height: 320px;
   display:flex;
   justify-content:space-around;
+  flex-direction: column;
   
     /* add code below */
 
@@ -132,7 +133,7 @@ on the children, the rest are properties you have used in past challenges
   justify-content:space-around;
    align-items: flex-end;
    flex:1;
-   justify-content: flex-start;
+   
    
 
   /* add code below */
@@ -173,7 +174,7 @@ on the children, the rest are properties you have used in past challenges
 
 .c-7-header {
   background-color: steelblue;
-  height: 60px;
+  height: 100px;
   /* there is one property missing here, 
   This property is used on children,
   it allows it to take up any empty space
@@ -197,6 +198,8 @@ on the children, the rest are properties you have used in past challenges
 
 .c-7-sidebar {
   background-color: coral;
+  height:400px;
+  width:400px;
 /*   This property is used on children,
   it allows it to take up any empty space */
 
@@ -204,6 +207,8 @@ on the children, the rest are properties you have used in past challenges
 
 .c-7-main {
   background-color: lightgreen;
+  height:400px;
+  width:1150px;
   /*   This property is used on children,
   it allows it to take up any empty space */
 
@@ -211,6 +216,8 @@ on the children, the rest are properties you have used in past challenges
 
 .c-7-footer {
   background-color: steelblue;
+  width:10000px;
+height:70px;
   /*   This property is used on children,
   it allows it to take up any empty space */
 
