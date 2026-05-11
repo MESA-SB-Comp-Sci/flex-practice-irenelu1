@@ -5,8 +5,8 @@
 .challenge-1 {
   background-color: grey;
   width: 100vw;
-  /* add code below */
-
+  display:flex;
+  flex-direction: row;
 
 }
 
@@ -20,6 +20,7 @@
   width: 100vw;
   display: flex;
   /* add code below*/
+  flex-direction: column;
 
 
 
@@ -35,6 +36,10 @@
   background-color: grey;
   width: 100vw;
   /* add code below */
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+
 
 
 }
@@ -49,6 +54,10 @@
   width: 100vw;
   height: 400px;
   /* add code below */
+  flex-direction: row;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 
 
 
@@ -65,6 +74,8 @@
 .challenge-5a {
   background-color: grey;
   width: 100vw;
+  display:flex;
+  justify-content: center;
   /* top section, add code below */
 
 }
@@ -72,6 +83,11 @@
 .challenge-5b {
   background-color: lightgray;
   width: 100vw;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+
   /* bottom section, add code below */
 
 
@@ -92,6 +108,9 @@ on the children, the rest are properties you have used in past challenges
 .challenge-6 {
   width: 100vw;
   height: 320px;
+  display:flex;
+  justify-content:space-around;
+  
     /* add code below */
 
 }
@@ -99,12 +118,22 @@ on the children, the rest are properties you have used in past challenges
 .c-6-child-1 {
   background-color: lightgrey;
   /* add code below */
+  display:flex;
+  justify-content:space-around;
+  flex:1;
+
 
 
 }
 
 .c-6-child-2 {
   background-color: darkgrey;
+  display:flex;
+  justify-content:space-around;
+   align-items: flex-end;
+   flex:1;
+   justify-content: flex-start;
+   
 
   /* add code below */
 }
